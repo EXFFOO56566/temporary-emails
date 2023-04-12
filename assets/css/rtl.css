@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/**
+ * RTL TRASH MAILS 
+ * 
+ *
+ * @package TRASH MAILS 
+ * @version 1.1.0
+ * @author  lobage
+ * @url   https://lobage.com/
+ *
+ */
+
+
+/*------------------
+Fonts
+-------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap");
+
+/*------------------
+Global Css
+-------------------*/
+
+body{
+  font-family: "Cairo";
+}
+
+
+/*------------------
+FrontEnd
+-------------------*/
+
+.custom-email ,.section-title p , .section-title , .copyright-text , .home-btn .btn ,.home p{
+  direction: rtl;
+}
+
+.custom-email-input {
+  padding: 10px 20px 10px 100px;
+}
+
+.custom-email-botton {
+  right: auto;
+  left: 3px;
+}
+
+.widget-title,.contact-form.article-comment h4{
+
+  text-align: right;
+}
+
+.article-title h6 , .col-12.ov-h.subject , .view_rtl{
+  direction: rtl;
+  text-align: right !important;
+}
